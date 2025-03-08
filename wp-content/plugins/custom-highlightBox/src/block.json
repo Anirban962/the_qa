@@ -1,0 +1,30 @@
+{
+    "apiVersion": 2,
+    "name": "custom/highlight-box",
+    "title": "Custom Highlight Box",
+    "category": "design",
+    "icon": "admin-customizer",
+    "description": "A block that allows users to add a heading, text, background color, and optional border.",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "heading": {
+            "type": "string",
+            "default": ""
+        },
+        "content": {
+            "type": "string",
+            "default": ""
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "#ffffff"
+        },
+        "hasBorder": {
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "editorScript": "file:./index.js"
+}
