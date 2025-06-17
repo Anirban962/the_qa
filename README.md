@@ -106,3 +106,58 @@ add_action('wp_enqueue_scripts', 'enqueue_map_script');
 
 // ajax enqueue for contact map ends
 __________________________________________________File Name: enqueue-scripts.php
+
+________________________________
+WP-interview question- taken from chatgpt
+__________________________________________
+
+
+🔧 Theme & Plugin Development
+How do you create a custom WordPress theme from scratch?
+
+What is the difference between get_template_part() and include() in theme development?
+
+How would you enqueue scripts and styles in WordPress properly?
+
+Explain the template hierarchy in WordPress. How does it decide which file to load?
+
+How would you create a custom plugin that adds a shortcode to display recent posts?
+
+⚙️ Custom Post Types & Taxonomies
+How do you register a Custom Post Type (CPT) and make it available in the REST API?
+
+What are the differences between taxonomy, category, and tags in WordPress?
+
+How would you create a custom taxonomy and link it to a specific post type?
+
+🔒 Security & Performance
+What steps would you take to secure a WordPress site from common vulnerabilities?
+
+Explain how you would prevent SQL injection and XSS in a custom plugin.
+
+How do you optimize WordPress for speed and performance on a high-traffic site?
+
+What caching strategies would you recommend for WordPress?
+
+📦 Database & Backend
+Describe the WordPress database schema. Which tables are most relevant to post data?
+
+How would you write a custom query using $wpdb? When should you use it over WP_Query?
+
+How do you create and manage custom meta fields for posts or users?
+
+📱 REST API & Headless CMS
+How do you use the WordPress REST API to fetch posts on a frontend built in React or Vue?
+
+What are the benefits and challenges of using WordPress as a headless CMS?
+
+How do you authenticate REST API requests in a secure way (e.g., OAuth, JWT)?
+
+🧩 Advanced Concepts
+What is a hook in WordPress? Can you explain the difference between actions and filters?
+
+Describe a scenario where you would use a custom walker class in WordPress.
+
+How do you implement multilingual support in a custom theme or plugin?
+
+Have you used ACF (Advanced Custom Fields) or Meta Box? How do they differ from default meta boxes?
